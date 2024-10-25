@@ -1,0 +1,131 @@
+.card {
+  border-radius: 30px;
+  flex-grow: 1;
+  max-width: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 60px 29px 40px;
+
+  @media (max-width: 1420px) {
+    max-width: none;
+    flex-basis: calc(50% - 20px);
+  }
+  &:nth-child(2) {
+    background: var(--dark-bg);
+    color: white;
+
+    .subtitle {
+      color: rgba($color: #fff, $alpha: 0.5)
+    }
+  }
+
+  &:nth-child(3) {
+    @extend .card, :nth-child(2);
+    background: var(--main-gradient);
+
+    line{
+      stroke:rgba(0, 0, 0, 1)
+    }
+
+    .subtitle {
+      li {
+        font-size: 16px;
+        margin-bottom: 21.6px;
+        list-style: circle;
+        list-style-image: none;
+      }
+      li::marker{
+        font-size: 1em;
+        color: white;
+      }
+    }
+  }
+
+  &:nth-child(4){
+    background: #E7F3FF;
+  }
+
+    .limits{
+      margin-bottom: 5px;
+    }
+
+    .limits,
+    .limits+ul {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 1.4;
+      text-align: left;
+      align-self: flex-start;
+    }
+    .limits+ul{
+      margin-bottom: 20px;
+      min-height: 76px;
+    }
+
+  &>svg{
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 38px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &:nth-child(1),
+  &:nth-child(4) {
+    h3 {
+      color: black;
+    }
+    line{
+      stroke:rgba(0, 0, 0, 1)
+    }
+  }
+
+  &:nth-child(2),
+  &:nth-child(3) {
+    h3 {
+      color: white;
+    }
+  }
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+line-height: 22px;
+text-align: center;
+
+  font-weight: 200;
+}
+
+.advantages {
+  padding-left: 20px;
+  min-height: 316px;
+  margin-bottom: 40px;
+
+  li {
+    font-size: 16px;
+    list-style-image: url(../../assets/images/pricing-list-marker.svg);
+    margin-bottom: 21.6px;
+  }
+}
+
+.pricing{
+font-size: 30px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+align-self: flex-start;
+.mini{
+font-size: 18px;
+line-height: 18px;
+text-align: left;
+
+}
+}

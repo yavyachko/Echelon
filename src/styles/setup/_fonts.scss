@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'Resist Sans Display';
+    src: url('/src/assets/fonts/ResistSansDisplay-Bold.eot');
+    src: local('/src/assets/fonts/Resist Sans Display Bold'), local('ResistSansDisplay-Bold'),
+        url('/src/assets/fonts/ResistSansDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/src/assets/fonts/ResistSansDisplay-Bold.woff2') format('woff2'),
+        url('/src/assets/fonts/ResistSansDisplay-Bold.woff') format('woff'),
+        url('/src/assets/fonts/ResistSansDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Resist Sans Display';
+    src: url('/src/assets/fonts/ResistSansDisplay-Light.eot');
+    src: local('/src/assets/fonts/Resist Sans Display Light'), local('ResistSansDisplay-Light'),
+        url('/src/assets/fonts/ResistSansDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('/src/assets/fonts/ResistSansDisplay-Light.woff2') format('woff2'),
+        url('/src/assets/fonts/ResistSansDisplay-Light.woff') format('woff'),
+        url('/src/assets/fonts/ResistSansDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Resist Sans Display';
+    src: url('/src/assets/fonts/ResistSansDisplay-Medium.eot');
+    src: local('/src/assets/fonts/Resist Sans Display Medium'), local('ResistSansDisplay-Medium'),
+        url('/src/assets/fonts/ResistSansDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/src/assets/fonts/ResistSansDisplay-Medium.woff2') format('woff2'),
+        url('/src/assets/fonts/ResistSansDisplay-Medium.woff') format('woff'),
+        url('/src/assets/fonts/ResistSansDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Resist Sans Display';
+    src: url('/src/assets/fonts/ResistSansDisplay-Thin.eot');
+    src: local('/src/assets/fonts/Resist Sans Display Thin'), local('ResistSansDisplay-Thin'),
+        url('/src/assets/fonts/ResistSansDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/src/assets/fonts/ResistSansDisplay-Thin.woff2') format('woff2'),
+        url('/src/assets/fonts/ResistSansDisplay-Thin.woff') format('woff'),
+        url('/src/assets/fonts/ResistSansDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Resist Sans Display';
+    src: url('/src/assets/fonts/ResistSansDisplay-Regular.eot');
+    src: local('/src/assets/fonts/Resist Sans Display'), local('ResistSansDisplay-Regular'),
+        url('/src/assets/fonts/ResistSansDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/src/assets/fonts/ResistSansDisplay-Regular.woff2') format('woff2'),
+        url('/src/assets/fonts/ResistSansDisplay-Regular.woff') format('woff'),
+        url('/src/assets/fonts/ResistSansDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

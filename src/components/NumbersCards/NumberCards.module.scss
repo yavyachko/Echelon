@@ -1,0 +1,30 @@
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap:24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 20px;
+  background: white;
+  padding: 40px 30px;    
+  display: flex;
+  gap:30px;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: calc(33% - 2*30px);
+}
+
+.title {
+  font-size: 80px;
+  line-height: 88px;
+  vertical-align: middle;
+}
+
+.subtitle{
+font-size: 20px;
+line-height: 1.4;
+white-space: nowrap;
+
+}

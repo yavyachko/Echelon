@@ -1,0 +1,21 @@
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_gradient{
+    background: var(--main-gradient);
+    color: white;
+    cursor: pointer;
+    padding: 10px 50px;
+    border-radius: 12px;
+    font-size: clamp(24px, 2vw,30px);
+    flex-shrink: 0;
+    line-height: 40.5px;
+    text-align: left;
+    font-weight: 300;
+  }
+
+  &-100{
+    width:100%;
+  }
+}

@@ -1,0 +1,43 @@
+@import './basics/_reset.scss';
+@import './setup/_colors.scss';
+@import './setup/_fonts.scss';
+@import './setup/_variables.scss';
+@import './setup/UI.scss';
+
+:root{
+  margin: 20px 60px;
+}
+*{
+  font-family: var(--font-main);
+}
+
+body{
+  background-color: var(--light-bg);
+  font-family: var(--font-main);
+  font-weight: 300;
+}
+
+.arrow-container{
+  padding: 17px 21px;
+  border-radius: 100px;
+  width: fit-content;
+  transition: all 0.2s ease-in-out;
+  &_light{
+    @extend .arrow-container;
+    background-color: white;
+    path{
+      fill: var(--dark-bg);
+    }
+  }
+  &_dark{
+    @extend .arrow-container;
+    background-color: var(--dark-bg);
+    path {
+      fill: white;
+    }
+  }
+  &_rotated{
+    @extend .arrow-container;
+    transform: rotate(-135deg);
+  }
+}

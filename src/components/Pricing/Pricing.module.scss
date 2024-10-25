@@ -1,0 +1,84 @@
+.title {
+  font-size: 84px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--dark-bg);
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+.promo{
+  position: relative;
+  background-color: var(--dark-bg);
+  padding: 60px 50px 50px;
+  color: white;
+  border-radius: 30px;
+  background-image: url(../../assets/images/pricing-promo-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+  @media (max-width: 1150px) {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../assets/images/pricing-bg-mobile.png);
+    background-size: 100%;
+    background-position: center -25%;
+  }
+
+  @media (max-width: 610px) {
+    background-position: center bottom;
+  }
+  
+  &__title {
+      font-size: 32px;
+      line-height: 1;
+      text-align: left;
+      margin-bottom: 15px;
+  }
+
+  &__subtitle{
+font-size: 22px;
+font-weight: 450;
+line-height: 28px;
+text-align: left;
+margin-bottom: 20px;
+
+  }
+  &>ul{
+    margin-bottom: 40px;
+  }
+  li{
+    margin-bottom: 4px;
+  }
+
+  &__right{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 22px 32px 22px 38px;
+    backdrop-filter: blur(20px);
+    border:1px solid #212121;
+    background: rgba(7, 16, 28, 0.6);
+    border-radius: 20px 0 0 20px;
+    h4{
+      margin-bottom: 8px;
+    }
+  @media (max-width: 1150px) {
+    position: static;
+    border-radius: 20px;
+    transform: translateY(0%);
+    margin-bottom: 40px;
+  }
+  }
+}
+
+.plans{
+  &__body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+}
